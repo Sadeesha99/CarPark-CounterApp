@@ -1,0 +1,57 @@
+body {
+    background-image: url("carPark.jpeg");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.836);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+p{
+    text-align: justify center;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+
+#increment-btn {
+    background: rgb(3, 7, 77);
+}
+#decrement-btn {
+    background: rgb(135, 138, 1);
+}
+#zero-btn {
+    background: rgb(139, 32, 0);
+}
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:hover, #decrement-btn:hover,#increment-btn:hover, #zero-btn:hover{
+    background-color: rgba(94, 107, 180, 0.884);
+}
